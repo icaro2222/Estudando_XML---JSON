@@ -6,7 +6,7 @@
  * contem metodos basicos para criar, deletar, Lê e apagar dados no BD
  */
 
-require_once('/var/www/html/Icaro/model/ModelRoom.php');
+require_once(__DIR__.'../../model/ModelRoom.php');
 
  class Room extends ModelRoom {
     

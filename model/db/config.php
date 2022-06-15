@@ -1,6 +1,6 @@
 <?php
 
-define('HOST', '10.10.1.35');
-define('USER', 'icaro_dias');
-define('PASS', 'icaro_dias@@123');
+define('HOST', 'localhost');
+define('USER', 'icaro');
+define('PASS', 'tatakae');
 define('BASE', 'ava_icaro_dias');

@@ -6,7 +6,7 @@
  * contem metodos basicos para criar, deletar, Lê e apagar dados no BD
  */
 
-require_once('/var/www/html/Icaro/model/ModelGuest.php');
+require_once(__DIR__.'../../model/ModelGuest.php');
 
  class Guest extends ModelGuest {
     

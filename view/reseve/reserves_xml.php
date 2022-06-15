@@ -3,9 +3,9 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-require_once('../../app/controller/Reseve.php');
-require_once('../../app/controller/Guest.php');
-require_once('../../app/controller/Daily.php');
+require_once(__DIR__.'../../app/controller/Reseve.php');
+require_once(__DIR__.'../../app/controller/Guest.php');
+require_once(__DIR__.'../../app/controller/Daily.php');
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
