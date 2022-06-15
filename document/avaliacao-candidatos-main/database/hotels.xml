@@ -1,0 +1,8 @@
+<Hotels>
+    <Hotel id="1">
+        <Name>Hotel Foco 1</Name>
+    </Hotel>
+    <Hotel id="2">
+        <Name>Hotel Foco 2</Name>
+    </Hotel>
+</Hotels>
