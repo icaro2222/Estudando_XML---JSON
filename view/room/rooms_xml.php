@@ -15,6 +15,10 @@ require_once(__DIR__.'/../../app/controller/Room.php');
 
 </head>
 <body>
+	<main>
+        <div class="center">
+            <a href="./"><button>Voltar</button></a>
+        </div>
 <h1>Rooms</h1>
 <?php
     $link = __DIR__."/../../document/avaliacao-candidatos-main/database/rooms.xml"; 

@@ -18,7 +18,7 @@ require_once(__DIR__.'/../../app/controller/Room.php');
     
 	<main>
         <div class="center">
-            <a href="../"><button>Voltar</button></a>
+            <a href="./"><button>Voltar</button></a>
         </div>
         <div class="center">
             <h1>Cadastrar Hotel</h1>

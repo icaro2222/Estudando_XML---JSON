@@ -19,8 +19,9 @@ require_once(__DIR__.'/../../app/controller/Room.php');
     <h1>Listar Room</h1>
     
     
-    <a href="../"><button>Voltar</button></a>
-
+    <div class="center">
+            <a href="./"><button>Voltar</button></a>
+        </div>
     <!-- Inicio da tabela -->
     <table class="table">
                 <thead>

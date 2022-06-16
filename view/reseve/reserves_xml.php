@@ -20,7 +20,7 @@ require_once(__DIR__.'/../../app/controller/Daily.php');
 <body>
 <h1>Reserves</h1>
 <?php
-    $link = "/var/www/html/Icaro/document/avaliacao-candidatos-main/database/reserves.xml"; 
+    $link = __DIR__."/document/avaliacao-candidatos-main/database/reserves.xml"; 
     //link do arquivo xml
     $xml = simplexml_load_file($link); 
     //carrega o arquivo XML e retornando um Array

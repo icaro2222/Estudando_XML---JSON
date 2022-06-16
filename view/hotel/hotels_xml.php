@@ -18,7 +18,7 @@ require_once(__DIR__.'/../../app/controller/Hotel.php');
 <body>
 <h1>Hotels</h1>
 <?php
-    $link = "/var/www/html/Icaro/document/avaliacao-candidatos-main/database/hotels.xml"; 
+    $link = __DIR__."/document/avaliacao-candidatos-main/database/hotels.xml"; 
     //link do arquivo xml
     $xml = simplexml_load_file($link); 
     //carrega o arquivo XML e retornando um Array
