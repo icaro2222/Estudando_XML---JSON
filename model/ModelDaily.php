@@ -1,7 +1,7 @@
 <?php
 ##salvar como ModelDailys.php
 ##arquivo que implementa a tabela e seus atributos, acessa os metodos get e set
-require_once(__DIR__.'db/DB.php');    //inclui arquivo DB
+require_once(__DIR__.'/db/DB.php');    //inclui arquivo DB
 
  class ModelDaily extends DB {   //faz herança do arquivo DB
     

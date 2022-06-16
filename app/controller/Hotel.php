@@ -6,7 +6,7 @@
  * contem metodos basicos para criar, deletar, Lê e apagar dados no BD
  */
 
-require_once(__DIR__.'../../model/ModelHotel.php');
+require_once(__DIR__.'/../../model/ModelHotel.php');
 
  class Hotel extends ModelHotel {
     
